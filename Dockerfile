@@ -1,4 +1,4 @@
 FROM openjdk:7
-COPY . /timeflow
+COPY /timeflow /timeflow
 WORKDIR /timeflow
 CMD ["java", "-jar", "Timeline.jar" ]
